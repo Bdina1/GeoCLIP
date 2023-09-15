@@ -27,10 +27,10 @@ class ViTEncoder(nn.Module):
         x = self.transformer(x)
         return x
     
-model = ViTEncoder(in_channels=9)
-x = torch.rand(1,9,256,256)
-embeddings = model(x)
+# model = ViTEncoder(in_channels=9)
+# x = torch.rand(1,9,256,256)
+# embeddings = model(x)
 
-print(embeddings.shape)
+# print(embeddings.shape)
 
         
