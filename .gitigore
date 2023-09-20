@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Model files (Replace with your own model file extensions if needed)
+*.h5
+*.ckpt
+*.pth
+*.pb
+*.tflite
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment and Configuration
+.env
+.venv/
